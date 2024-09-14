@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+}
+.righteous-regular {
+  font-family: "Righteous", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.content {
+  margin-top: 50px;
+}
+
+body {
+  background-color: #202027;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+nav ul a {
+  text-decoration: none;
+  padding: 30px;
+  font-weight: bold;
+  color: white;
+}
+nav ul a:hover {
+  color: #f629c1;
+}
+
+.active {
+  color: #f629c1;
+}
+h1,
+h2,
+h3,
+p {
+  color: white;
+}
+span {
+  color: #f629c1;
+}
+.card {
+  background-color: #202027;
+}
+.btn{
+  color: white;
+  
+  background-color: #f629c1;
+}
+.btn:hover{
+  background-color:  #ff6ec7;
+  
+}
+
+.card span{
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 20px;
+
+}
+.sf{
+  margin-right: 20px;
+ 
+}
+.card{
+  margin-bottom: 30px;
+}
+.roboto-condensed-content {
+  font-family: "Roboto Condensed", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+@media(max-width:800px){
+  nav {
+    display: flex;
+    flex-direction: column;
+  }
+  nav ul{
+    padding-inline-start: 0;
+  }
+  nav ul a {
+    padding-left:0;
+    
+  }
+}
